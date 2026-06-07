@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#34d399"/><stop offset="1" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbbf24"/><stop offset="1" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f87171"/><stop offset="1" stop-color="#dc2626"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#94a3b8"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="800" y="62" text-anchor="middle" fill="#f8fafc" font-size="42" font-weight="700">The Amazon Seller Flow — Buying to Selling</text>
+  <text x="800" y="96" text-anchor="middle" fill="#94a3b8" font-size="20">8 stages · sourcing from China · 2025–2026</text>
+
+  <!-- Legend -->
+  <g font-size="18" fill="#cbd5e1">
+    <rect x="540" y="118" width="22" height="22" rx="5" fill="url(#green)"/>
+    <text x="570" y="135">Mostly automatable</text>
+    <rect x="760" y="118" width="22" height="22" rx="5" fill="url(#amber)"/>
+    <text x="790" y="135">AI assists, human approves</text>
+    <rect x="1030" y="118" width="22" height="22" rx="5" fill="url(#red)"/>
+    <text x="1060" y="135">Stays human</text>
+  </g>
+
+  <!-- Card generator: positions -->
+  <!-- Row 1 -->
+  <!-- Card 1 -->
+  <g filter="url(#shadow)">
+    <rect x="60" y="190" width="330" height="180" rx="18" fill="#1e293b" stroke="url(#green)" stroke-width="3"/>
+  </g>
+  <circle cx="100" cy="230" r="26" fill="url(#green)"/><text x="100" y="239" text-anchor="middle" fill="#06281c" font-size="26" font-weight="800">1</text>
+  <text x="145" y="232" fill="#f8fafc" font-size="25" font-weight="700">Product</text>
+  <text x="145" y="260" fill="#f8fafc" font-size="25" font-weight="700">Research</text>
+  <text x="84" y="300" fill="#cbd5e1" font-size="17">Find a product: demand,</text>
+  <text x="84" y="324" fill="#cbd5e1" font-size="17">competition, margin.</text>
+  <text x="84" y="352" fill="#7dd3fc" font-size="16" font-style="italic">Helium 10 · Jungle Scout</text>
+
+  <!-- Card 2 -->
+  <g filter="url(#shadow)">
+    <rect x="430" y="190" width="330" height="180" rx="18" fill="#1e293b" stroke="url(#green)" stroke-width="3"/>
+  </g>
+  <circle cx="470" cy="230" r="26" fill="url(#green)"/><text x="470" y="239" text-anchor="middle" fill="#06281c" font-size="26" font-weight="800">2</text>
+  <text x="515" y="232" fill="#f8fafc" font-size="25" font-weight="700">Keyword</text>
+  <text x="515" y="260" fill="#f8fafc" font-size="25" font-weight="700">Research</text>
+  <text x="454" y="300" fill="#cbd5e1" font-size="17">Reverse-ASIN competitors</text>
+  <text x="454" y="324" fill="#cbd5e1" font-size="17">→ master keyword list.</text>
+  <text x="454" y="352" fill="#7dd3fc" font-size="16" font-style="italic">Cerebro · Keyword Scout</text>
+
+  <!-- Card 3 -->
+  <g filter="url(#shadow)">
+    <rect x="800" y="190" width="330" height="180" rx="18" fill="#1e293b" stroke="url(#red)" stroke-width="3"/>
+  </g>
+  <circle cx="840" cy="230" r="26" fill="url(#red)"/><text x="840" y="239" text-anchor="middle" fill="#3a0a0a" font-size="26" font-weight="800">3</text>
+  <text x="885" y="232" fill="#f8fafc" font-size="25" font-weight="700">Sourcing</text>
+  <text x="885" y="260" fill="#f8fafc" font-size="25" font-weight="700">+ Validate</text>
+  <text x="824" y="300" fill="#cbd5e1" font-size="17">Vet supplier, samples,</text>
+  <text x="824" y="324" fill="#cbd5e1" font-size="17">negotiate, check margin.</text>
+  <text x="824" y="352" fill="#7dd3fc" font-size="16" font-style="italic">Alibaba · Profit Calc</text>
+
+  <!-- Card 4 -->
+  <g filter="url(#shadow)">
+    <rect x="1170" y="190" width="330" height="180" rx="18" fill="#1e293b" stroke="url(#red)" stroke-width="3"/>
+  </g>
+  <circle cx="1210" cy="230" r="26" fill="url(#red)"/><text x="1210" y="239" text-anchor="middle" fill="#3a0a0a" font-size="26" font-weight="800">4</text>
+  <text x="1255" y="232" fill="#f8fafc" font-size="25" font-weight="700">Import /</text>
+  <text x="1255" y="260" fill="#f8fafc" font-size="25" font-weight="700">Logistics</text>
+  <text x="1194" y="300" fill="#cbd5e1" font-size="17">FOB shipping, customs,</text>
+  <text x="1194" y="324" fill="#cbd5e1" font-size="17">tariffs, into FBA.</text>
+  <text x="1194" y="352" fill="#7dd3fc" font-size="16" font-style="italic">Freight forwarder</text>
+
+  <!-- Row 1 arrows -->
+  <line x1="390" y1="280" x2="428" y2="280" stroke="#94a3b8" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="760" y1="280" x2="798" y2="280" stroke="#94a3b8" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="1130" y1="280" x2="1168" y2="280" stroke="#94a3b8" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- Down connector (right side) -->
+  <path d="M1335,370 L1335,420 L800,420 L800,455" fill="none" stroke="#94a3b8" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- Row 2 (reversed flow visually but arrows point left) -->
+  <!-- Card 5 -->
+  <g filter="url(#shadow)">
+    <rect x="1170" y="470" width="330" height="180" rx="18" fill="#1e293b" stroke="url(#amber)" stroke-width="3"/>
+  </g>
+  <circle cx="1210" cy="510" r="26" fill="url(#amber)"/><text x="1210" y="519" text-anchor="middle" fill="#3a2406" font-size="26" font-weight="800">5</text>
+  <text x="1255" y="512" fill="#f8fafc" font-size="25" font-weight="700">Listing</text>
+  <text x="1255" y="540" fill="#f8fafc" font-size="25" font-weight="700">Creation</text>
+  <text x="1194" y="580" fill="#cbd5e1" font-size="17">Title, bullets, A+, images.</text>
+  <text x="1194" y="604" fill="#cbd5e1" font-size="17">AI drafts, human edits.</text>
+  <text x="1194" y="632" fill="#7dd3fc" font-size="16" font-style="italic">Amazon AI · H10 / JS</text>
+
+  <!-- Card 6 -->
+  <g filter="url(#shadow)">
+    <rect x="800" y="470" width="330" height="180" rx="18" fill="#1e293b" stroke="url(#red)" stroke-width="3"/>
+  </g>
+  <circle cx="840" cy="510" r="26" fill="url(#red)"/><text x="840" y="519" text-anchor="middle" fill="#3a0a0a" font-size="26" font-weight="800">6</text>
+  <text x="885" y="519" fill="#f8fafc" font-size="25" font-weight="700">Launch</text>
+  <text x="824" y="560" fill="#cbd5e1" font-size="17">First sales + reviews to</text>
+  <text x="824" y="584" fill="#cbd5e1" font-size="17">trigger ranking.</text>
+  <text x="824" y="612" fill="#7dd3fc" font-size="16" font-style="italic">Amazon Vine (30 reviews)</text>
+
+  <!-- Card 7 -->
+  <g filter="url(#shadow)">
+    <rect x="430" y="470" width="330" height="180" rx="18" fill="#1e293b" stroke="url(#green)" stroke-width="3"/>
+  </g>
+  <circle cx="470" cy="510" r="26" fill="url(#green)"/><text x="470" y="519" text-anchor="middle" fill="#06281c" font-size="26" font-weight="800">7</text>
+  <text x="515" y="519" fill="#f8fafc" font-size="25" font-weight="700">PPC / Ads</text>
+  <text x="454" y="560" fill="#cbd5e1" font-size="17">Sponsored ads, harvest</text>
+  <text x="454" y="584" fill="#cbd5e1" font-size="17">winners, scale. ACOS/TACOS.</text>
+  <text x="454" y="612" fill="#7dd3fc" font-size="16" font-style="italic">Perpetua · Adtomic</text>
+
+  <!-- Card 8 -->
+  <g filter="url(#shadow)">
+    <rect x="60" y="470" width="330" height="180" rx="18" fill="#1e293b" stroke="url(#green)" stroke-width="3"/>
+  </g>
+  <circle cx="100" cy="510" r="26" fill="url(#green)"/><text x="100" y="519" text-anchor="middle" fill="#06281c" font-size="26" font-weight="800">8</text>
+  <text x="145" y="512" fill="#f8fafc" font-size="25" font-weight="700">Operations</text>
+  <text x="145" y="540" fill="#f8fafc" font-size="22" font-weight="600">inventory·profit·reviews</text>
+  <text x="84" y="580" fill="#cbd5e1" font-size="17">Forecast, reorder, track</text>
+  <text x="84" y="604" fill="#cbd5e1" font-size="17">net profit, request reviews.</text>
+  <text x="84" y="632" fill="#7dd3fc" font-size="16" font-style="italic">Sellerboard · Helium 10</text>
+
+  <!-- Row 2 arrows (point left) -->
+  <line x1="1168" y1="560" x2="1130" y2="560" stroke="#94a3b8" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="798" y1="560" x2="760" y2="560" stroke="#94a3b8" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="428" y1="560" x2="390" y2="560" stroke="#94a3b8" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- Reorder loop: from card 8 bottom back to card 3 -->
+  <path d="M225,650 L225,710 L965,710 L965,372" fill="none" stroke="#22d3ee" stroke-width="3" stroke-dasharray="9 7" marker-end="url(#arrow)"/>
+  <rect x="470" y="690" width="250" height="40" rx="20" fill="#0e7490"/>
+  <text x="595" y="717" text-anchor="middle" fill="#e0f2fe" font-size="19" font-weight="700">REORDER &amp; SCALE ↻</text>
+
+  <!-- Footer note -->
+  <rect x="60" y="775" width="1480" height="90" rx="14" fill="#7f1d1d" fill-opacity="0.30" stroke="#f87171" stroke-width="2"/>
+  <text x="84" y="810" fill="#fecaca" font-size="20" font-weight="700">⚠ 2026 automation limit:</text>
+  <text x="320" y="810" fill="#fee2e2" font-size="19">Amazon's BSA update (Mar 4, 2026) bans browser bots on Seller Central — use official APIs (SP-API / Ads API).</text>
+  <text x="84" y="842" fill="#fee2e2" font-size="19">The ceiling on "complete automation" is Amazon policy, not the tech. Keep a human on sourcing, logistics, launch &amp; compliance.</text>
+</svg>
