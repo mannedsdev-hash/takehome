@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+# Raw screen recordings can contain anything that was on your screen. Never commit them.
+recordings/
+memory/runs/**/frames/
+.env
